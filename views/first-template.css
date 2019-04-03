@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://images.pexels.com/photos/422844/dublin-famous-colorful-doors-422844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 98vh;
+}
+
+form{
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px dotted blue;
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+input{
+    padding: 12px;
+    border-radius: 20px;
+    outline: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+.go{
+    margin: 20px auto;
+    padding: 20px 70px;
+    border: none;
+    background-image: linear-gradient(to right, orange, yellow, orange);
+    box-shadow: 0 4px 15px 0 rgba(242, 242, 0, 0.75);
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.5s ease-out;
+}
+
+.go:hover{
+    box-shadow: 0 6px 20px 0 rgba(255, 127, 0, 0.75);
+    background-image: linear-gradient(to right, yellow, orange, yellow);
+    transition: all 0.5s ease-out;
+}
